@@ -1,0 +1,57 @@
+# ==============================
+# C++ 编译输出 / 可执行文件
+# ==============================
+*.o
+*.obj
+*.out
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# 构建目录
+build/
+cmake-build-*/
+out/
+bin/
+obj/
+x64/
+x86/
+Debug/
+Release/
+x64-Debug/
+x64-Release/
+
+# CMake 相关
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ==============================
+# 编辑器 / IDE
+# ==============================
+.idea/
+.vscode/
+*.iml
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.swp
+*.swo
+
+# ==============================
+# 系统文件
+# ==============================
+.DS_Store
+Thumbs.db
+*.log
+tmp/
+temp/
