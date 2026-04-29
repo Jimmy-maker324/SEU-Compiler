@@ -47,7 +47,7 @@ SEU-Compiler/
 ## 编译与运行
 ### 1. 编译 SeuYacc
 ```bash
-g++ *.cpp -o SeuYacc -std=c++11 -O2
+g++ *.cpp -o SeuYacc -std=c++11 -O2 -fexec-charset=UTF-8
 ```
 
 ### 2. 基本用法
